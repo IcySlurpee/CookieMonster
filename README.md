@@ -54,7 +54,7 @@ Copy this code and save it as a bookmark. Paste it in the URL section. To activa
 
 ```javascript
 javascript: (function () {
-	Game.LoadMod('https://aktanusa.github.io/CookieMonster/CookieMonster.js');
+	Game.LoadMod('https://icyslurpee.github.io/CookieMonster/CookieMonster.js');
 }());
 ```
 
@@ -64,7 +64,7 @@ For beta, use the following instead:
 
 ```javascript
 javascript: (function () {
-	Game.LoadMod('https://aktanusa.github.io/CookieMonster/CookieMonsterBeta.js');
+	Game.LoadMod('https://icyslurpee.github.io/CookieMonster/CookieMonsterBeta.js');
 }());
 ```
 
@@ -85,7 +85,7 @@ If you'd rather use the addon as a script via per example *Greasemonkey* or *Tam
 var code = "(" + (function() {
     var checkReady = setInterval(function() {
         if (typeof Game.ready !== 'undefined' && Game.ready) {
-            Game.LoadMod('https://aktanusa.github.io/CookieMonster/CookieMonster.js');
+            Game.LoadMod('https://icyslurpee.github.io/CookieMonster/CookieMonster.js');
             clearInterval(checkReady);
         }
     }, 1000);
@@ -108,7 +108,7 @@ If you are using the beta, use this instead:
 var code = "(" + (function() {
     var checkReady = setInterval(function() {
         if (typeof Game.ready !== 'undefined' && Game.ready) {
-            Game.LoadMod('https://aktanusa.github.io/CookieMonster/CookieMonsterBeta.js');
+            Game.LoadMod('https://icyslurpee.github.io/CookieMonster/CookieMonsterBeta.js');
             clearInterval(checkReady);
         }
     }, 1000);
@@ -119,17 +119,7 @@ window.eval(code);
 
 # Bugs and suggestions
 
-Any bug or suggestion should be **opened as an issue** [in the repository](https://github.com/Aktanusa/CookieMonster/issues) for easier tracking. This allows me to close issues once they're fixed.
-
-Before submitting a bug, make sure to give a shot at the latest version of the addon on the <code>dev</code> branch. For this, use the following bookmarklet:
-
-```javascript
-javascript: (function () {
-	Game.LoadMod('https://cdn.rawgit.com/Aktanusa/CookieMonster/dev/CookieMonster.js');
-}());
-```
-
-If the bug is still here, you can submit an issue for it.
+Any bug or suggestion should be **opened as an issue** [in the repository](https://github.com/IcySlurpee/CookieMonster/issues) for easier tracking. This allows me to close issues once they're fixed.
 
 All suggestions are welcome, even the smallest ones.
 
