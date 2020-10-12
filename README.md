@@ -6,7 +6,7 @@ This is a helper, and it is here to help you at *whichever* degree you want, if 
 
 ## Current version
 
-You can see the current version, and a full history of all versions and what they changed by consulting the [releases page](https://github.com/Aktanusa/CookieMonster/releases).
+You can see the current version, and a full history of all versions and what they changed by consulting the [releases page](https://github.com/IcySlurpee/CookieMonster/releases).
 
 ## What it does
 
